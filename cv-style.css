@@ -479,6 +479,7 @@ body {
     line-height: 1 !important;
     margin: 0 !important;
     padding: 0 !important;
+    color: #000000 !important;
   }
 
   .container {
@@ -508,5 +509,46 @@ body {
 
   .job-meta {
     display: block;
+  }
+
+  * {
+    color: #000000 !important;
+  }
+
+  /* Specific class overrides for all text elements */
+  .name,
+  .contact-link,
+  .nav-link,
+  .section-title,
+  .job-title,
+  .job-meta,
+  .company,
+  .period,
+  .location,
+  .project-title,
+  .project-description,
+  .degree,
+  .education-meta,
+  .institution,
+  .education-details p,
+  .skill-title,
+  .skill-items,
+  .interests,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  div,
+  a,
+  button,
+  .job-title-section,
+  .education-title-section,
+  .job-header,
+  .education-header {
+    color: #000000 !important;
   }
 }
