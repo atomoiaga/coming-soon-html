@@ -418,6 +418,8 @@ body {
   .contact-info {
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav {
